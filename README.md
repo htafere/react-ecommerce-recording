@@ -1,13 +1,30 @@
 Installation list:
+
+<link href="https://fonts.googleapis.com/css?family=Oswald|Permanent+Marker&display=swap" rel="stylesheet">
+
 ## npm install --save styled-components
 https://www.styled-components.com/
 
 ## npm install --save react-router-dom
 
-<link href="https://fonts.googleapis.com/css?family=Oswald|Permanent+Marker&display=swap" rel="stylesheet">
+Create free account on netlify.com
+https://app.netlify.com/sites/bakaroo-ecommerce/overview
 
 
 
+
+npmjs.com
+search for react-paypal-express-checkout
+## npm install --save react-paypal-express-checkout
+
+google for 'paypal developer api'
+
+
+PayPal Developer API
+https://developer.paypal.com/developer/accounts/
+
+Check payments made here:
+https://www.sandbox.paypal.com/mep/dashboard
 
 
 
