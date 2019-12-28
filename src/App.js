@@ -8,10 +8,11 @@ import Details from './components/Details';
 import Cart from './components/Cart';
 import Default from './components/Default';
 import Modal from './components/Modal';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
+    <div className='container-fluid'>
       <Navbar />
       <Switch>
         <Route path='/' component={ProductList} exact/>
@@ -20,7 +21,8 @@ function App() {
         <Route component={Default} />
       </Switch>
       <Modal />
-    </>
+      <Footer />
+    </div>
   );
 }
 

@@ -7,7 +7,7 @@
         render() {
             return (
                 <>
-                    <div className='py-5'>
+                    <div className='py-2'>
                         <div className='container'>
                             <Title name='our' title='products' />
                             <div className='row'>

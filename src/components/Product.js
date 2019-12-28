@@ -25,7 +25,7 @@ export default class Product extends Component {
                                         }}>
                                     {
                                         inCart ? (<p className='text-capitalize mb-0' disabled>
-                                            {""} in cart</p>) : (<i className='fas fa-cart-plus' />)
+                                            {" "} in cart</p>) : (<i className='fas fa-cart-plus' />)
                                     }
                                 </button>
                             </div>
@@ -70,7 +70,7 @@ const ProductWrapper = styled.div`
     &:hover {
         .card {
             border: 0.04rem solid rgba(0, 0, 0, 0.2);
-            box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
         }
         .card-footer {
             background: rgba(247, 247, 247);
@@ -84,7 +84,7 @@ const ProductWrapper = styled.div`
         transition: all 1s linear;
     }
     .img-container:hover .card-img-top {
-        transform: scale(1.5);
+        transform: scale(1.3);
     }
     .cart-btn {
         position: absolute;
